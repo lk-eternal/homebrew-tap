@@ -1,13 +1,13 @@
 cask "feishu-cursor-bridge" do
-  version "2.5.2"
+  version "2.5.3"
 
   on_intel do
-    sha256 "4143d2bfdbec10bbdde9d7957a08508c8d224d391e9d871a77e8e044dd5a7b4e"
+    sha256 "eab770d36438de5fdd5552bf7c7a67338f41f01014dd500deb51bd6b7673ebee"
     url "https://github.com/lk-eternal/feishu-cursor-bridge/releases/download/v#{version}/Feishu.Cursor.Bridge-#{version}.dmg"
   end
 
   on_arm do
-    sha256 "09d7fc036249ce65a7fd78fc0469486090c1becc308fcc97434f2449d7a78b3b"
+    sha256 "c0d93ed20a45d78600408221b401489a6695180059845ab420c31e504100f6dc"
     url "https://github.com/lk-eternal/feishu-cursor-bridge/releases/download/v#{version}/Feishu.Cursor.Bridge-#{version}-arm64.dmg"
   end
 
