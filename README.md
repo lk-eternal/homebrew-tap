@@ -1,49 +1,54 @@
 # Homebrew Tap
 
-本 Tap 包含以下应用的 Homebrew Cask 安装源：
-
-| 应用 | 描述 | 仓库 |
-|------|------|------|
-| [Feishu Cursor Bridge](https://github.com/lk-eternal/feishu-cursor-bridge) | 飞书 × Cursor 远程协作桌面应用 | `feishu-cursor-bridge` |
-| [Cursor Claw](https://github.com/lk-eternal/cursor-claw) | 飞书 / 微信 × Cursor AI 协作桌面应用 | `cursor-claw` |
-
-## 初次安装
+本 Tap 包含以下应用的 Homebrew Cask 安装源。
 
 ```bash
-# 添加 tap
 brew tap lk-eternal/tap
+```
 
-# 安装 Feishu Cursor Bridge
+---
+
+## Cursor Claw
+
+飞书 / 微信 × Cursor AI 协作桌面应用
+
+GitHub: https://github.com/lk-eternal/cursor-claw
+
+```bash
+# 安装
+brew install --cask cursor-claw
+
+# 更新
+brew update && brew upgrade --cask cursor-claw
+
+# 卸载
+brew uninstall --cask cursor-claw
+```
+
+---
+
+## Feishu Cursor Bridge
+
+飞书 × Cursor 远程协作桌面应用
+
+GitHub: https://github.com/lk-eternal/feishu-cursor-bridge
+
+```bash
+# 安装
 brew install --cask feishu-cursor-bridge
 
-# 安装 Cursor Claw
-brew install --cask cursor-claw
-```
-
-安装完成后在「应用程序」中打开对应应用即可。
-
-## 更新到最新版本
-
-```bash
+# 更新
 brew update && brew upgrade --cask feishu-cursor-bridge
-brew update && brew upgrade --cask cursor-claw
-```
 
-如果提示 `the latest version is already installed` 但实际版本较旧，请参考下方 FAQ。
-
-## 卸载
-
-```bash
+# 卸载
 brew uninstall --cask feishu-cursor-bridge
-brew uninstall --cask cursor-claw
-brew untap lk-eternal/tap   # 可选，移除 tap 源
 ```
+
+---
 
 ## FAQ
 
 ### Q: `brew upgrade` 提示已是最新，但实际还是旧版本？
-
-这是 Homebrew Cask 的常见问题，通常是本地 tap 缓存没有刷新。按以下步骤操作：
 
 ```bash
 # 方法 1：强制刷新 tap 后重装
@@ -86,7 +91,6 @@ brew info --cask <cask-name>
 由于应用未经过 Apple 公证，首次打开时可能会被 Gatekeeper 拦截：
 
 ```bash
-# 移除隔离属性（替换为实际应用名）
 xattr -cr "/Applications/<AppName>.app"
 ```
 
