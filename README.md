@@ -5,7 +5,7 @@
 | 应用 | 描述 | 仓库 |
 |------|------|------|
 | [Feishu Cursor Bridge](https://github.com/lk-eternal/feishu-cursor-bridge) | 飞书 × Cursor 远程协作桌面应用 | `feishu-cursor-bridge` |
-| [Cursor Claw](https://github.com/lk-eternal/cursor-claw) | 微信 × Cursor AI 协作桌面应用 | `cursor-claw` |
+| [Cursor Claw](https://github.com/lk-eternal/cursor-claw) | 飞书 / 微信 × Cursor AI 协作桌面应用 | `cursor-claw` |
 
 ## 初次安装
 

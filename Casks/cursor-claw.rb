@@ -12,7 +12,7 @@ cask "cursor-claw" do
   end
 
   name "Cursor Claw"
-  desc "微信 × Cursor AI 协作桌面应用"
+  desc "飞书 / 微信 × Cursor AI 协作桌面应用"
   homepage "https://github.com/lk-eternal/cursor-claw"
 
   livecheck do
