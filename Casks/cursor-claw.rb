@@ -1,13 +1,13 @@
 cask "cursor-claw" do
-  version "1.8.8"
+  version "1.8.9"
 
   on_intel do
-    sha256 "714fc0311ff36af5a173b21c1cc8302655cc3f22f9de57697e12f1197894d95d"
+    sha256 "f093b12e66c470653f749622181c33116a5173545578b7585f47415ffbef3a87"
     url "https://github.com/lk-eternal/cursor-claw/releases/download/v#{version}/Cursor.Claw-#{version}.dmg"
   end
 
   on_arm do
-    sha256 "79b94e9c27749615c9253928d65829d0eb82eae847c14f012ab9a34e81c867c5"
+    sha256 "600b14d3665f095909590fbb49319ee1e7c7f9f654930704b252cc1171488759"
     url "https://github.com/lk-eternal/cursor-claw/releases/download/v#{version}/Cursor.Claw-#{version}-arm64.dmg"
   end
 
