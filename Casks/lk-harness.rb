@@ -1,12 +1,12 @@
 cask "lk-harness" do
-  version "0.2.14"
+  version "0.2.16"
 
   on_intel do
-    sha256 "54ad5edbcb3a78d5a24d75f2d9b73aca437f0b378f6f9f9435415f1753125a85"
+    sha256 "a92095190640121e556a8ab39f140c8631c648cbaca38980d36aef691431ab4c"
     url "https://github.com/lk-eternal/lk-harness/releases/download/v#{version}/LK%20Harness-#{version}.dmg"
   end
   on_arm do
-    sha256 "fde70df078544746413e69414f27fa3f7ade2afda01ba21399a0935df829078c"
+    sha256 "a3aae0bd94e41ed21f05bc63c9e5896ba9ad2b900a06b066d7a44b34b85a6e7d"
     url "https://github.com/lk-eternal/lk-harness/releases/download/v#{version}/LK%20Harness-#{version}-arm64.dmg"
   end
 
